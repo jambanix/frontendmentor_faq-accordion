@@ -96,6 +96,11 @@ p.hide {
     gap: 20px;
 }
 
+.accordion:focus,
+.accordion:hover {
+    color: purple;
+}
+
 .accordion-head {
     display: flex;
     justify-content: space-between;
