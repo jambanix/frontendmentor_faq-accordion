@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Work Sans";
+}
+
+body {
+    background-color: #F8EEFF;
+}
+
+i {
+    color: purple;
+    font-size: 2.4rem;
+}
+
+i.dark {
+    color: black;
+}
+
+hr {
+    opacity: .1;
+}
+
+p {
+    color: var(--grayish-purple);
+    font-size: 1.6rem;
+    line-height: 150%;
+    font-weight: 400;
+    transition: all 1s ease-in-out;
+}
+
+p.hide {
+    display: none;
+}
+
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-pink: hsl(275, 100%, 97%);
+    --grayish-purple: hsl(292, 16%, 49%);
+    --dark-purple: hsl(292, 42%, 14%);
+}
+
+.main-container {
+    min-height: 90vh;
+    background: url("assets/images/background-pattern-mobile.svg") top no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.card {
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 50%;
+}
+
+.card-heading {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+
+.card-heading h2 {
+    font-size: 2.4rem;
+    color: var(--dark-purple);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.accordion {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.accordion-head {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    align-items: center;
+}
+
+.accordion-head h3 {
+    font-weight: 600;
+    line-height: 120%;
+    flex-basis: 80%;
+}
+
+
+
+
