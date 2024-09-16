@@ -111,6 +111,7 @@ p.hide {
 .accordion-head h3 {
     font-weight: 500;
     line-height: 120%;
+    flex-basis: 80%;
 }
 
 @media (min-width: 627px) {
